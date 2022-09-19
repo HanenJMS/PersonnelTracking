@@ -98,7 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(415, 256);
+            this.ClientSize = new System.Drawing.Size(406, 264);
             this.Controls.Add(this.ButtonExit);
             this.Controls.Add(this.ButtonEnter);
             this.Controls.Add(this.TxtPassword);
