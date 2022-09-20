@@ -21,5 +21,10 @@ namespace PersonalTracking
         {
             e.Handled = General.IsNumber(e);
         }
+
+        private void TxtBoxUserNo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -26,5 +26,15 @@ namespace PersonalTracking
         {
             Application.Exit();
         }
+
+        private void TxtUserNo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserNo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

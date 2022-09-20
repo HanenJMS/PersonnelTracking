@@ -16,5 +16,15 @@ namespace PersonalTracking
         {
             InitializeComponent();
         }
+
+        private void ButtonClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void TxtUserNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = General.IsNumber(e);
+        }
     }
 }

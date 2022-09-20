@@ -45,6 +45,7 @@
             this.UserNo.Size = new System.Drawing.Size(84, 25);
             this.UserNo.TabIndex = 0;
             this.UserNo.Text = "UserNo";
+            this.UserNo.Click += new System.EventHandler(this.UserNo_Click);
             // 
             // TxtUserNo
             // 
@@ -53,6 +54,7 @@
             this.TxtUserNo.Name = "TxtUserNo";
             this.TxtUserNo.Size = new System.Drawing.Size(209, 30);
             this.TxtUserNo.TabIndex = 0;
+            this.TxtUserNo.TextChanged += new System.EventHandler(this.TxtUserNo_TextChanged);
             this.TxtUserNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtUserNo_KeyPress);
             // 
             // TxtPassword

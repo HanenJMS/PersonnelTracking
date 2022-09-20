@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ButtonClear = new System.Windows.Forms.Button();
-            this.ButtonSearch = new System.Windows.Forms.Button();
             this.CmbPosition = new System.Windows.Forms.ComboBox();
             this.TextPosition = new System.Windows.Forms.Label();
             this.CmbDepartment = new System.Windows.Forms.ComboBox();
@@ -47,6 +45,8 @@
             this.ButtonUpdate = new System.Windows.Forms.Button();
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.ButtonAdd = new System.Windows.Forms.Button();
+            this.ButtonClear = new System.Windows.Forms.Button();
+            this.ButtonSearch = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -71,32 +71,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(743, 180);
             this.panel1.TabIndex = 0;
-            // 
-            // ButtonClear
-            // 
-            this.ButtonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonClear.Image = global::PersonalTracking.Properties.Resources.dust;
-            this.ButtonClear.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonClear.Location = new System.Drawing.Point(513, 97);
-            this.ButtonClear.Name = "ButtonClear";
-            this.ButtonClear.Size = new System.Drawing.Size(125, 68);
-            this.ButtonClear.TabIndex = 6;
-            this.ButtonClear.Text = "Clear";
-            this.ButtonClear.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ButtonClear.UseVisualStyleBackColor = true;
-            // 
-            // ButtonSearch
-            // 
-            this.ButtonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonSearch.Image = global::PersonalTracking.Properties.Resources.loupe;
-            this.ButtonSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonSearch.Location = new System.Drawing.Point(357, 97);
-            this.ButtonSearch.Name = "ButtonSearch";
-            this.ButtonSearch.Size = new System.Drawing.Size(125, 68);
-            this.ButtonSearch.TabIndex = 5;
-            this.ButtonSearch.Text = "Search";
-            this.ButtonSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ButtonSearch.UseVisualStyleBackColor = true;
             // 
             // CmbPosition
             // 
@@ -179,6 +153,7 @@
             this.TxtBoxUserNo.Name = "TxtBoxUserNo";
             this.TxtBoxUserNo.Size = new System.Drawing.Size(209, 30);
             this.TxtBoxUserNo.TabIndex = 0;
+            this.TxtBoxUserNo.TextChanged += new System.EventHandler(this.TxtBoxUserNo_TextChanged);
             this.TxtBoxUserNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtUserNo_KeyPress);
             // 
             // UserNo
@@ -265,6 +240,32 @@
             this.ButtonAdd.Text = "Add";
             this.ButtonAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonAdd.UseVisualStyleBackColor = true;
+            // 
+            // ButtonClear
+            // 
+            this.ButtonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonClear.Image = global::PersonalTracking.Properties.Resources.dust;
+            this.ButtonClear.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonClear.Location = new System.Drawing.Point(513, 97);
+            this.ButtonClear.Name = "ButtonClear";
+            this.ButtonClear.Size = new System.Drawing.Size(125, 68);
+            this.ButtonClear.TabIndex = 6;
+            this.ButtonClear.Text = "Clear";
+            this.ButtonClear.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonClear.UseVisualStyleBackColor = true;
+            // 
+            // ButtonSearch
+            // 
+            this.ButtonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonSearch.Image = global::PersonalTracking.Properties.Resources.loupe;
+            this.ButtonSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonSearch.Location = new System.Drawing.Point(357, 97);
+            this.ButtonSearch.Name = "ButtonSearch";
+            this.ButtonSearch.Size = new System.Drawing.Size(125, 68);
+            this.ButtonSearch.TabIndex = 5;
+            this.ButtonSearch.Text = "Search";
+            this.ButtonSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonSearch.UseVisualStyleBackColor = true;
             // 
             // FrmEmployeeList
             // 
