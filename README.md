@@ -20,4 +20,8 @@ Department List
 
 Position List
 	-Shows list of Employees Position
+<<<<<<< HEAD
 	-Allows modification of an employees position
+=======
+	-Allows modification of an employees position
+>>>>>>> ed48d869d34963dc131a707e3899ab3c3a2182e1
