@@ -73,6 +73,26 @@ namespace PersonalTracking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AddMaleEmployee {
+            get {
+                object obj = ResourceManager.GetObject("AddMaleEmployee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap close {
+            get {
+                object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EmployeeKey32 {
             get {
                 object obj = ResourceManager.GetObject("EmployeeKey32", resourceCulture);
@@ -96,6 +116,16 @@ namespace PersonalTracking.Properties {
         internal static System.Drawing.Bitmap exit {
             get {
                 object obj = ResourceManager.GetObject("exit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap garbage {
+            get {
+                object obj = ResourceManager.GetObject("garbage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +216,16 @@ namespace PersonalTracking.Properties {
         internal static System.Drawing.Bitmap teamwork {
             get {
                 object obj = ResourceManager.GetObject("teamwork", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap turnover {
+            get {
+                object obj = ResourceManager.GetObject("turnover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -157,6 +157,7 @@
             this.Controls.Add(this.ButtonTasks);
             this.Controls.Add(this.ButtonEmployee);
             this.Name = "FrmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMain";
             this.ResumeLayout(false);
 
