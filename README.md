@@ -13,3 +13,11 @@ Main Form
 	-Salary - employee salary info
 	-Tasks - employee tasks
 	-Permission - Shows employees access information
+	
+Department List
+	-Shows List of Employees in a Department
+	-Allows modification of Department Assigment of Employees
+
+Position List
+	-Shows list of Employees Position
+	-Allows modification of an employees position
