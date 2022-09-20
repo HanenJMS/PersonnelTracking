@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DataPositionList = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.ButtonClose = new System.Windows.Forms.Button();
             this.ButtonUpdate = new System.Windows.Forms.Button();
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.ButtonAdd = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataPositionList)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DataPositionList
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(677, 294);
-            this.dataGridView1.TabIndex = 0;
+            this.DataPositionList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataPositionList.Dock = System.Windows.Forms.DockStyle.Top;
+            this.DataPositionList.Location = new System.Drawing.Point(0, 0);
+            this.DataPositionList.Name = "DataPositionList";
+            this.DataPositionList.RowHeadersWidth = 51;
+            this.DataPositionList.RowTemplate.Height = 24;
+            this.DataPositionList.Size = new System.Drawing.Size(677, 294);
+            this.DataPositionList.TabIndex = 0;
             // 
             // panel1
             // 
@@ -66,7 +66,7 @@
             this.ButtonClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonClose.Image = global::PersonalTracking.Properties.Resources.close;
             this.ButtonClose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonClose.Location = new System.Drawing.Point(499, 43);
+            this.ButtonClose.Location = new System.Drawing.Point(491, 43);
             this.ButtonClose.Name = "ButtonClose";
             this.ButtonClose.Size = new System.Drawing.Size(132, 68);
             this.ButtonClose.TabIndex = 3;
@@ -120,11 +120,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(677, 402);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DataPositionList);
             this.Name = "FrmPositionList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPositionList";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataPositionList)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -132,7 +132,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DataPositionList;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button ButtonClose;
         private System.Windows.Forms.Button ButtonUpdate;

@@ -80,7 +80,7 @@
             this.ButtonUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonUpdate.Image = global::PersonalTracking.Properties.Resources.turnover;
             this.ButtonUpdate.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonUpdate.Location = new System.Drawing.Point(170, 27);
+            this.ButtonUpdate.Location = new System.Drawing.Point(166, 27);
             this.ButtonUpdate.Name = "ButtonUpdate";
             this.ButtonUpdate.Size = new System.Drawing.Size(125, 68);
             this.ButtonUpdate.TabIndex = 1;

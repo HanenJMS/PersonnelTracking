@@ -30,8 +30,8 @@
         {
             this.TxtDepartment = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.ButtonSave = new System.Windows.Forms.Button();
             this.ButtonClose = new System.Windows.Forms.Button();
+            this.ButtonSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtDepartment
@@ -52,26 +52,30 @@
             this.textBox1.Size = new System.Drawing.Size(155, 30);
             this.textBox1.TabIndex = 0;
             // 
-            // ButtonSave
-            // 
-            this.ButtonSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonSave.Location = new System.Drawing.Point(36, 123);
-            this.ButtonSave.Name = "ButtonSave";
-            this.ButtonSave.Size = new System.Drawing.Size(137, 54);
-            this.ButtonSave.TabIndex = 1;
-            this.ButtonSave.Text = "Save";
-            this.ButtonSave.UseVisualStyleBackColor = true;
-            // 
             // ButtonClose
             // 
             this.ButtonClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonClose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ButtonClose.Location = new System.Drawing.Point(200, 123);
             this.ButtonClose.Name = "ButtonClose";
-            this.ButtonClose.Size = new System.Drawing.Size(125, 54);
+            this.ButtonClose.Size = new System.Drawing.Size(125, 75);
             this.ButtonClose.TabIndex = 2;
             this.ButtonClose.Text = "Close";
+            this.ButtonClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonClose.UseVisualStyleBackColor = true;
             this.ButtonClose.Click += new System.EventHandler(this.ButtonClose_Click);
+            // 
+            // ButtonSave
+            // 
+            this.ButtonSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonSave.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonSave.Location = new System.Drawing.Point(36, 123);
+            this.ButtonSave.Name = "ButtonSave";
+            this.ButtonSave.Size = new System.Drawing.Size(137, 75);
+            this.ButtonSave.TabIndex = 1;
+            this.ButtonSave.Text = "Save";
+            this.ButtonSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonSave.UseVisualStyleBackColor = true;
             // 
             // FrmDepartment
             // 

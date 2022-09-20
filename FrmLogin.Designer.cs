@@ -32,8 +32,8 @@
             this.TxtUserNo = new System.Windows.Forms.TextBox();
             this.TxtPassword = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.Label();
-            this.ButtonEnter = new System.Windows.Forms.Button();
             this.ButtonExit = new System.Windows.Forms.Button();
+            this.ButtonEnter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UserNo
@@ -73,26 +73,31 @@
             this.Password.TabIndex = 0;
             this.Password.Text = "Password";
             // 
-            // ButtonEnter
-            // 
-            this.ButtonEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ButtonEnter.Location = new System.Drawing.Point(24, 151);
-            this.ButtonEnter.Name = "ButtonEnter";
-            this.ButtonEnter.Size = new System.Drawing.Size(158, 53);
-            this.ButtonEnter.TabIndex = 2;
-            this.ButtonEnter.Text = "Enter";
-            this.ButtonEnter.UseVisualStyleBackColor = true;
-            // 
             // ButtonExit
             // 
             this.ButtonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ButtonExit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ButtonExit.Location = new System.Drawing.Point(197, 151);
             this.ButtonExit.Name = "ButtonExit";
-            this.ButtonExit.Size = new System.Drawing.Size(158, 53);
+            this.ButtonExit.Size = new System.Drawing.Size(158, 70);
             this.ButtonExit.TabIndex = 3;
             this.ButtonExit.Text = "Exit";
+            this.ButtonExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonExit.UseVisualStyleBackColor = true;
             this.ButtonExit.Click += new System.EventHandler(this.ButtonExit_Click);
+            // 
+            // ButtonEnter
+            // 
+            this.ButtonEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ButtonEnter.Image = global::PersonalTracking.Properties.Resources.enter3;
+            this.ButtonEnter.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonEnter.Location = new System.Drawing.Point(24, 151);
+            this.ButtonEnter.Name = "ButtonEnter";
+            this.ButtonEnter.Size = new System.Drawing.Size(158, 70);
+            this.ButtonEnter.TabIndex = 2;
+            this.ButtonEnter.Text = "Enter";
+            this.ButtonEnter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonEnter.UseVisualStyleBackColor = true;
             // 
             // FrmLogin
             // 
