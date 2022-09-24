@@ -80,7 +80,7 @@
             this.ChAdmin.Location = new System.Drawing.Point(640, 9);
             this.ChAdmin.Name = "ChAdmin";
             this.ChAdmin.Size = new System.Drawing.Size(80, 20);
-            this.ChAdmin.TabIndex = 9;
+            this.ChAdmin.TabIndex = 3;
             this.ChAdmin.Text = "Is Admin";
             this.ChAdmin.UseVisualStyleBackColor = true;
             // 
@@ -90,7 +90,7 @@
             this.TextBoxPassword.Location = new System.Drawing.Point(387, 35);
             this.TextBoxPassword.Name = "TextBoxPassword";
             this.TextBoxPassword.Size = new System.Drawing.Size(209, 30);
-            this.TextBoxPassword.TabIndex = 7;
+            this.TextBoxPassword.TabIndex = 2;
             // 
             // Password
             // 
@@ -110,7 +110,7 @@
             this.ButtonCheck.Location = new System.Drawing.Point(242, 0);
             this.ButtonCheck.Name = "ButtonCheck";
             this.ButtonCheck.Size = new System.Drawing.Size(125, 62);
-            this.ButtonCheck.TabIndex = 6;
+            this.ButtonCheck.TabIndex = 1;
             this.ButtonCheck.Text = "Check";
             this.ButtonCheck.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonCheck.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
             this.TxtUserNo.Location = new System.Drawing.Point(27, 35);
             this.TxtUserNo.Name = "TxtUserNo";
             this.TxtUserNo.Size = new System.Drawing.Size(209, 30);
-            this.TxtUserNo.TabIndex = 1;
+            this.TxtUserNo.TabIndex = 0;
             this.TxtUserNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtUserNo_KeyPress);
             // 
             // UserNo
@@ -140,7 +140,7 @@
             this.TextBoxSurName.Location = new System.Drawing.Point(139, 154);
             this.TextBoxSurName.Name = "TextBoxSurName";
             this.TextBoxSurName.Size = new System.Drawing.Size(209, 30);
-            this.TextBoxSurName.TabIndex = 9;
+            this.TextBoxSurName.TabIndex = 1;
             // 
             // TxtSurName
             // 
@@ -158,7 +158,7 @@
             this.TextBoxName.Location = new System.Drawing.Point(139, 110);
             this.TextBoxName.Name = "TextBoxName";
             this.TextBoxName.Size = new System.Drawing.Size(209, 30);
-            this.TextBoxName.TabIndex = 8;
+            this.TextBoxName.TabIndex = 0;
             // 
             // TxtName
             // 
@@ -176,7 +176,7 @@
             this.TextBoxImagePath.Location = new System.Drawing.Point(139, 198);
             this.TextBoxImagePath.Name = "TextBoxImagePath";
             this.TextBoxImagePath.Size = new System.Drawing.Size(209, 30);
-            this.TextBoxImagePath.TabIndex = 7;
+            this.TextBoxImagePath.TabIndex = 2;
             // 
             // ImagePath
             // 
@@ -196,7 +196,7 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(507, 115);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(232, 173);
+            this.pictureBox1.Size = new System.Drawing.Size(232, 306);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
@@ -206,7 +206,7 @@
             this.ButtonBrowsw.Location = new System.Drawing.Point(354, 198);
             this.ButtonBrowsw.Name = "ButtonBrowsw";
             this.ButtonBrowsw.Size = new System.Drawing.Size(114, 30);
-            this.ButtonBrowsw.TabIndex = 10;
+            this.ButtonBrowsw.TabIndex = 3;
             this.ButtonBrowsw.Text = "Browse";
             this.ButtonBrowsw.UseVisualStyleBackColor = true;
             // 
@@ -216,7 +216,7 @@
             this.TextboxSalary.Location = new System.Drawing.Point(139, 258);
             this.TextboxSalary.Name = "TextboxSalary";
             this.TextboxSalary.Size = new System.Drawing.Size(209, 30);
-            this.TextboxSalary.TabIndex = 14;
+            this.TextboxSalary.TabIndex = 4;
             // 
             // Salary
             // 
@@ -235,7 +235,7 @@
             this.CmbPosition.Location = new System.Drawing.Point(139, 348);
             this.CmbPosition.Name = "CmbPosition";
             this.CmbPosition.Size = new System.Drawing.Size(209, 33);
-            this.CmbPosition.TabIndex = 17;
+            this.CmbPosition.TabIndex = 6;
             // 
             // TextPosition
             // 
@@ -254,7 +254,7 @@
             this.CmbDepartment.Location = new System.Drawing.Point(139, 304);
             this.CmbDepartment.Name = "CmbDepartment";
             this.CmbDepartment.Size = new System.Drawing.Size(209, 33);
-            this.CmbDepartment.TabIndex = 16;
+            this.CmbDepartment.TabIndex = 5;
             // 
             // TextDepartment
             // 
@@ -281,7 +281,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(139, 396);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(209, 22);
-            this.dateTimePicker1.TabIndex = 21;
+            this.dateTimePicker1.TabIndex = 7;
             // 
             // textBox1
             // 
@@ -290,7 +290,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(600, 123);
-            this.textBox1.TabIndex = 22;
+            this.textBox1.TabIndex = 8;
             // 
             // label1
             // 
@@ -310,7 +310,7 @@
             this.ButtonClose.Location = new System.Drawing.Point(430, 612);
             this.ButtonClose.Name = "ButtonClose";
             this.ButtonClose.Size = new System.Drawing.Size(125, 75);
-            this.ButtonClose.TabIndex = 25;
+            this.ButtonClose.TabIndex = 10;
             this.ButtonClose.Text = "Close";
             this.ButtonClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonClose.UseVisualStyleBackColor = true;
@@ -324,7 +324,7 @@
             this.ButtonSave.Location = new System.Drawing.Point(266, 612);
             this.ButtonSave.Name = "ButtonSave";
             this.ButtonSave.Size = new System.Drawing.Size(137, 75);
-            this.ButtonSave.TabIndex = 24;
+            this.ButtonSave.TabIndex = 9;
             this.ButtonSave.Text = "Save";
             this.ButtonSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonSave.UseVisualStyleBackColor = true;
@@ -333,7 +333,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 720);
+            this.ClientSize = new System.Drawing.Size(836, 726);
             this.Controls.Add(this.ButtonClose);
             this.Controls.Add(this.ButtonSave);
             this.Controls.Add(this.textBox1);
