@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(686, 620);
+            this.ClientSize = new System.Drawing.Size(672, 620);
             this.Controls.Add(this.ButtonClose);
             this.Controls.Add(this.ButtonSave);
             this.Controls.Add(this.TextBoxContent);
@@ -174,6 +174,7 @@
             this.Controls.Add(this.TxtBoxUserNo);
             this.Controls.Add(this.UserNo);
             this.Name = "FrmPermission";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Permission";
             this.ResumeLayout(false);
             this.PerformLayout();

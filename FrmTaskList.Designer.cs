@@ -30,6 +30,8 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.ButtonClear = new System.Windows.Forms.Button();
+            this.ButtonSearch = new System.Windows.Forms.Button();
             this.StateTask = new System.Windows.Forms.ComboBox();
             this.TaskState = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -53,13 +55,11 @@
             this.UserNo = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.ButtonApprove = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ButtonClose = new System.Windows.Forms.Button();
             this.ButtonUpdate = new System.Windows.Forms.Button();
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.ButtonAdd = new System.Windows.Forms.Button();
-            this.ButtonClear = new System.Windows.Forms.Button();
-            this.ButtonSearch = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -95,6 +95,32 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(569, 270);
             this.panel3.TabIndex = 2;
+            // 
+            // ButtonClear
+            // 
+            this.ButtonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonClear.Image = global::PersonalTracking.Properties.Resources.dust;
+            this.ButtonClear.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonClear.Location = new System.Drawing.Point(216, 184);
+            this.ButtonClear.Name = "ButtonClear";
+            this.ButtonClear.Size = new System.Drawing.Size(125, 68);
+            this.ButtonClear.TabIndex = 4;
+            this.ButtonClear.Text = "Clear";
+            this.ButtonClear.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonClear.UseVisualStyleBackColor = true;
+            // 
+            // ButtonSearch
+            // 
+            this.ButtonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonSearch.Image = global::PersonalTracking.Properties.Resources.loupe;
+            this.ButtonSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonSearch.Location = new System.Drawing.Point(60, 184);
+            this.ButtonSearch.Name = "ButtonSearch";
+            this.ButtonSearch.Size = new System.Drawing.Size(125, 68);
+            this.ButtonSearch.TabIndex = 3;
+            this.ButtonSearch.Text = "Search";
+            this.ButtonSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonSearch.UseVisualStyleBackColor = true;
             // 
             // StateTask
             // 
@@ -329,17 +355,6 @@
             this.ButtonApprove.Text = "Approve";
             this.ButtonApprove.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 270);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(936, 281);
-            this.dataGridView1.TabIndex = 2;
-            // 
             // ButtonClose
             // 
             this.ButtonClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -393,31 +408,16 @@
             this.ButtonAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonAdd.UseVisualStyleBackColor = true;
             // 
-            // ButtonClear
+            // dataGridView1
             // 
-            this.ButtonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonClear.Image = global::PersonalTracking.Properties.Resources.dust;
-            this.ButtonClear.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonClear.Location = new System.Drawing.Point(216, 184);
-            this.ButtonClear.Name = "ButtonClear";
-            this.ButtonClear.Size = new System.Drawing.Size(125, 68);
-            this.ButtonClear.TabIndex = 4;
-            this.ButtonClear.Text = "Clear";
-            this.ButtonClear.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ButtonClear.UseVisualStyleBackColor = true;
-            // 
-            // ButtonSearch
-            // 
-            this.ButtonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonSearch.Image = global::PersonalTracking.Properties.Resources.loupe;
-            this.ButtonSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonSearch.Location = new System.Drawing.Point(60, 184);
-            this.ButtonSearch.Name = "ButtonSearch";
-            this.ButtonSearch.Size = new System.Drawing.Size(125, 68);
-            this.ButtonSearch.TabIndex = 3;
-            this.ButtonSearch.Text = "Search";
-            this.ButtonSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ButtonSearch.UseVisualStyleBackColor = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 270);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(936, 281);
+            this.dataGridView1.TabIndex = 2;
             // 
             // FrmTaskList
             // 
