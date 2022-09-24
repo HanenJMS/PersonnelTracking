@@ -29,20 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.CmbPosition = new System.Windows.Forms.ComboBox();
-            this.TextPosition = new System.Windows.Forms.Label();
-            this.CmbDepartment = new System.Windows.Forms.ComboBox();
-            this.TextDepartment = new System.Windows.Forms.Label();
-            this.TextBoxSurName = new System.Windows.Forms.TextBox();
-            this.TxtSurName = new System.Windows.Forms.Label();
-            this.TextBoxName = new System.Windows.Forms.TextBox();
-            this.TxtName = new System.Windows.Forms.Label();
-            this.TxtBoxUserNo = new System.Windows.Forms.TextBox();
-            this.UserNo = new System.Windows.Forms.Label();
             this.ButtonClear = new System.Windows.Forms.Button();
             this.ButtonSearch = new System.Windows.Forms.Button();
             this.StateTask = new System.Windows.Forms.ComboBox();
@@ -55,72 +42,42 @@
             this.TaskFinish = new System.Windows.Forms.Label();
             this.TaskStart = new System.Windows.Forms.Label();
             this.PermissionDate = new System.Windows.Forms.Label();
+            this.PanelForAdmin = new System.Windows.Forms.Panel();
+            this.CmbPosition = new System.Windows.Forms.ComboBox();
+            this.TextPosition = new System.Windows.Forms.Label();
+            this.CmbDepartment = new System.Windows.Forms.ComboBox();
+            this.TextDepartment = new System.Windows.Forms.Label();
+            this.TextBoxSurName = new System.Windows.Forms.TextBox();
+            this.TxtSurName = new System.Windows.Forms.Label();
+            this.TextBoxName = new System.Windows.Forms.TextBox();
+            this.TxtName = new System.Windows.Forms.Label();
+            this.TxtBoxUserNo = new System.Windows.Forms.TextBox();
+            this.UserNo = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.ButtonDisapprove = new System.Windows.Forms.Button();
             this.ButtonApprove = new System.Windows.Forms.Button();
             this.ButtonClose = new System.Windows.Forms.Button();
             this.ButtonUpdate = new System.Windows.Forms.Button();
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.ButtonAdd = new System.Windows.Forms.Button();
-            this.ButtonDisapprove = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.PanelForAdmin.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.PanelForAdmin);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(998, 271);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.ButtonDisapprove);
-            this.panel2.Controls.Add(this.ButtonApprove);
-            this.panel2.Controls.Add(this.ButtonClose);
-            this.panel2.Controls.Add(this.ButtonUpdate);
-            this.panel2.Controls.Add(this.ButtonDelete);
-            this.panel2.Controls.Add(this.ButtonAdd);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 461);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(998, 152);
-            this.panel2.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 271);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(998, 190);
-            this.dataGridView1.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.CmbPosition);
-            this.panel3.Controls.Add(this.TextPosition);
-            this.panel3.Controls.Add(this.CmbDepartment);
-            this.panel3.Controls.Add(this.TextDepartment);
-            this.panel3.Controls.Add(this.TextBoxSurName);
-            this.panel3.Controls.Add(this.TxtSurName);
-            this.panel3.Controls.Add(this.TextBoxName);
-            this.panel3.Controls.Add(this.TxtName);
-            this.panel3.Controls.Add(this.TxtBoxUserNo);
-            this.panel3.Controls.Add(this.UserNo);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(402, 271);
-            this.panel3.TabIndex = 0;
             // 
             // panel4
             // 
@@ -139,99 +96,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(596, 271);
             this.panel4.TabIndex = 1;
-            // 
-            // CmbPosition
-            // 
-            this.CmbPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmbPosition.FormattingEnabled = true;
-            this.CmbPosition.Location = new System.Drawing.Point(153, 191);
-            this.CmbPosition.Name = "CmbPosition";
-            this.CmbPosition.Size = new System.Drawing.Size(184, 33);
-            this.CmbPosition.TabIndex = 4;
-            // 
-            // TextPosition
-            // 
-            this.TextPosition.AutoSize = true;
-            this.TextPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextPosition.Location = new System.Drawing.Point(24, 197);
-            this.TextPosition.Name = "TextPosition";
-            this.TextPosition.Size = new System.Drawing.Size(89, 25);
-            this.TextPosition.TabIndex = 26;
-            this.TextPosition.Text = "Position";
-            // 
-            // CmbDepartment
-            // 
-            this.CmbDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CmbDepartment.FormattingEnabled = true;
-            this.CmbDepartment.Location = new System.Drawing.Point(153, 147);
-            this.CmbDepartment.Name = "CmbDepartment";
-            this.CmbDepartment.Size = new System.Drawing.Size(184, 33);
-            this.CmbDepartment.TabIndex = 3;
-            // 
-            // TextDepartment
-            // 
-            this.TextDepartment.AutoSize = true;
-            this.TextDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextDepartment.Location = new System.Drawing.Point(24, 153);
-            this.TextDepartment.Name = "TextDepartment";
-            this.TextDepartment.Size = new System.Drawing.Size(123, 25);
-            this.TextDepartment.TabIndex = 25;
-            this.TextDepartment.Text = "Department";
-            // 
-            // TextBoxSurName
-            // 
-            this.TextBoxSurName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TextBoxSurName.Location = new System.Drawing.Point(128, 104);
-            this.TextBoxSurName.Name = "TextBoxSurName";
-            this.TextBoxSurName.Size = new System.Drawing.Size(209, 30);
-            this.TextBoxSurName.TabIndex = 2;
-            // 
-            // TxtSurName
-            // 
-            this.TxtSurName.AutoSize = true;
-            this.TxtSurName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtSurName.Location = new System.Drawing.Point(29, 109);
-            this.TxtSurName.Name = "TxtSurName";
-            this.TxtSurName.Size = new System.Drawing.Size(102, 25);
-            this.TxtSurName.TabIndex = 24;
-            this.TxtSurName.Text = "SurName";
-            // 
-            // TextBoxName
-            // 
-            this.TextBoxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TextBoxName.Location = new System.Drawing.Point(128, 60);
-            this.TextBoxName.Name = "TextBoxName";
-            this.TextBoxName.Size = new System.Drawing.Size(209, 30);
-            this.TextBoxName.TabIndex = 1;
-            // 
-            // TxtName
-            // 
-            this.TxtName.AutoSize = true;
-            this.TxtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtName.Location = new System.Drawing.Point(29, 65);
-            this.TxtName.Name = "TxtName";
-            this.TxtName.Size = new System.Drawing.Size(68, 25);
-            this.TxtName.TabIndex = 23;
-            this.TxtName.Text = "Name";
-            // 
-            // TxtBoxUserNo
-            // 
-            this.TxtBoxUserNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtBoxUserNo.Location = new System.Drawing.Point(128, 16);
-            this.TxtBoxUserNo.Name = "TxtBoxUserNo";
-            this.TxtBoxUserNo.Size = new System.Drawing.Size(209, 30);
-            this.TxtBoxUserNo.TabIndex = 0;
-            this.TxtBoxUserNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtBoxUserNo_KeyPress);
-            // 
-            // UserNo
-            // 
-            this.UserNo.AutoSize = true;
-            this.UserNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserNo.Location = new System.Drawing.Point(29, 21);
-            this.UserNo.Name = "UserNo";
-            this.UserNo.Size = new System.Drawing.Size(84, 25);
-            this.UserNo.TabIndex = 22;
-            this.UserNo.Text = "UserNo";
             // 
             // ButtonClear
             // 
@@ -357,6 +221,142 @@
             this.PermissionDate.TabIndex = 30;
             this.PermissionDate.Text = "Permission Date";
             // 
+            // PanelForAdmin
+            // 
+            this.PanelForAdmin.Controls.Add(this.CmbPosition);
+            this.PanelForAdmin.Controls.Add(this.TextPosition);
+            this.PanelForAdmin.Controls.Add(this.CmbDepartment);
+            this.PanelForAdmin.Controls.Add(this.TextDepartment);
+            this.PanelForAdmin.Controls.Add(this.TextBoxSurName);
+            this.PanelForAdmin.Controls.Add(this.TxtSurName);
+            this.PanelForAdmin.Controls.Add(this.TextBoxName);
+            this.PanelForAdmin.Controls.Add(this.TxtName);
+            this.PanelForAdmin.Controls.Add(this.TxtBoxUserNo);
+            this.PanelForAdmin.Controls.Add(this.UserNo);
+            this.PanelForAdmin.Dock = System.Windows.Forms.DockStyle.Left;
+            this.PanelForAdmin.Location = new System.Drawing.Point(0, 0);
+            this.PanelForAdmin.Name = "PanelForAdmin";
+            this.PanelForAdmin.Size = new System.Drawing.Size(402, 271);
+            this.PanelForAdmin.TabIndex = 0;
+            // 
+            // CmbPosition
+            // 
+            this.CmbPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CmbPosition.FormattingEnabled = true;
+            this.CmbPosition.Location = new System.Drawing.Point(153, 191);
+            this.CmbPosition.Name = "CmbPosition";
+            this.CmbPosition.Size = new System.Drawing.Size(184, 33);
+            this.CmbPosition.TabIndex = 4;
+            // 
+            // TextPosition
+            // 
+            this.TextPosition.AutoSize = true;
+            this.TextPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextPosition.Location = new System.Drawing.Point(24, 197);
+            this.TextPosition.Name = "TextPosition";
+            this.TextPosition.Size = new System.Drawing.Size(89, 25);
+            this.TextPosition.TabIndex = 26;
+            this.TextPosition.Text = "Position";
+            // 
+            // CmbDepartment
+            // 
+            this.CmbDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CmbDepartment.FormattingEnabled = true;
+            this.CmbDepartment.Location = new System.Drawing.Point(153, 147);
+            this.CmbDepartment.Name = "CmbDepartment";
+            this.CmbDepartment.Size = new System.Drawing.Size(184, 33);
+            this.CmbDepartment.TabIndex = 3;
+            // 
+            // TextDepartment
+            // 
+            this.TextDepartment.AutoSize = true;
+            this.TextDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextDepartment.Location = new System.Drawing.Point(24, 153);
+            this.TextDepartment.Name = "TextDepartment";
+            this.TextDepartment.Size = new System.Drawing.Size(123, 25);
+            this.TextDepartment.TabIndex = 25;
+            this.TextDepartment.Text = "Department";
+            // 
+            // TextBoxSurName
+            // 
+            this.TextBoxSurName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TextBoxSurName.Location = new System.Drawing.Point(128, 104);
+            this.TextBoxSurName.Name = "TextBoxSurName";
+            this.TextBoxSurName.Size = new System.Drawing.Size(209, 30);
+            this.TextBoxSurName.TabIndex = 2;
+            // 
+            // TxtSurName
+            // 
+            this.TxtSurName.AutoSize = true;
+            this.TxtSurName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtSurName.Location = new System.Drawing.Point(29, 109);
+            this.TxtSurName.Name = "TxtSurName";
+            this.TxtSurName.Size = new System.Drawing.Size(102, 25);
+            this.TxtSurName.TabIndex = 24;
+            this.TxtSurName.Text = "SurName";
+            // 
+            // TextBoxName
+            // 
+            this.TextBoxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TextBoxName.Location = new System.Drawing.Point(128, 60);
+            this.TextBoxName.Name = "TextBoxName";
+            this.TextBoxName.Size = new System.Drawing.Size(209, 30);
+            this.TextBoxName.TabIndex = 1;
+            // 
+            // TxtName
+            // 
+            this.TxtName.AutoSize = true;
+            this.TxtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtName.Location = new System.Drawing.Point(29, 65);
+            this.TxtName.Name = "TxtName";
+            this.TxtName.Size = new System.Drawing.Size(68, 25);
+            this.TxtName.TabIndex = 23;
+            this.TxtName.Text = "Name";
+            // 
+            // TxtBoxUserNo
+            // 
+            this.TxtBoxUserNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtBoxUserNo.Location = new System.Drawing.Point(128, 16);
+            this.TxtBoxUserNo.Name = "TxtBoxUserNo";
+            this.TxtBoxUserNo.Size = new System.Drawing.Size(209, 30);
+            this.TxtBoxUserNo.TabIndex = 0;
+            this.TxtBoxUserNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtBoxUserNo_KeyPress);
+            // 
+            // UserNo
+            // 
+            this.UserNo.AutoSize = true;
+            this.UserNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserNo.Location = new System.Drawing.Point(29, 21);
+            this.UserNo.Name = "UserNo";
+            this.UserNo.Size = new System.Drawing.Size(84, 25);
+            this.UserNo.TabIndex = 22;
+            this.UserNo.Text = "UserNo";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.ButtonDisapprove);
+            this.panel2.Controls.Add(this.ButtonApprove);
+            this.panel2.Controls.Add(this.ButtonClose);
+            this.panel2.Controls.Add(this.ButtonUpdate);
+            this.panel2.Controls.Add(this.ButtonDelete);
+            this.panel2.Controls.Add(this.ButtonAdd);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 461);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(998, 152);
+            this.panel2.TabIndex = 1;
+            // 
+            // ButtonDisapprove
+            // 
+            this.ButtonDisapprove.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonDisapprove.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonDisapprove.Location = new System.Drawing.Point(128, 80);
+            this.ButtonDisapprove.Name = "ButtonDisapprove";
+            this.ButtonDisapprove.Size = new System.Drawing.Size(135, 68);
+            this.ButtonDisapprove.TabIndex = 1;
+            this.ButtonDisapprove.Text = "Disapprove";
+            this.ButtonDisapprove.UseVisualStyleBackColor = true;
+            // 
             // ButtonApprove
             // 
             this.ButtonApprove.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -421,16 +421,16 @@
             this.ButtonAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonAdd.UseVisualStyleBackColor = true;
             // 
-            // ButtonDisapprove
+            // dataGridView1
             // 
-            this.ButtonDisapprove.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonDisapprove.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonDisapprove.Location = new System.Drawing.Point(128, 80);
-            this.ButtonDisapprove.Name = "ButtonDisapprove";
-            this.ButtonDisapprove.Size = new System.Drawing.Size(135, 68);
-            this.ButtonDisapprove.TabIndex = 1;
-            this.ButtonDisapprove.Text = "Disapprove";
-            this.ButtonDisapprove.UseVisualStyleBackColor = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 271);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(998, 190);
+            this.dataGridView1.TabIndex = 2;
             // 
             // FrmPermissionList
             // 
@@ -444,14 +444,14 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Permission List";
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.PanelForAdmin.ResumeLayout(false);
+            this.PanelForAdmin.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -462,7 +462,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel PanelForAdmin;
         private System.Windows.Forms.ComboBox CmbPosition;
         private System.Windows.Forms.Label TextPosition;
         private System.Windows.Forms.ComboBox CmbDepartment;
