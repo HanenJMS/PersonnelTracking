@@ -33,7 +33,7 @@
             this.TxtPassword = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.Label();
             this.ButtonExit = new System.Windows.Forms.Button();
-            this.ButtonEnter = new System.Windows.Forms.Button();
+            this.ButtonLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UserNo
@@ -88,18 +88,19 @@
             this.ButtonExit.UseVisualStyleBackColor = true;
             this.ButtonExit.Click += new System.EventHandler(this.ButtonExit_Click);
             // 
-            // ButtonEnter
+            // ButtonLogin
             // 
-            this.ButtonEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ButtonEnter.Image = global::PersonalTracking.Properties.Resources.enter3;
-            this.ButtonEnter.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonEnter.Location = new System.Drawing.Point(24, 151);
-            this.ButtonEnter.Name = "ButtonEnter";
-            this.ButtonEnter.Size = new System.Drawing.Size(158, 70);
-            this.ButtonEnter.TabIndex = 2;
-            this.ButtonEnter.Text = "Enter";
-            this.ButtonEnter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ButtonEnter.UseVisualStyleBackColor = true;
+            this.ButtonLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ButtonLogin.Image = global::PersonalTracking.Properties.Resources.enter3;
+            this.ButtonLogin.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonLogin.Location = new System.Drawing.Point(24, 151);
+            this.ButtonLogin.Name = "ButtonLogin";
+            this.ButtonLogin.Size = new System.Drawing.Size(158, 70);
+            this.ButtonLogin.TabIndex = 2;
+            this.ButtonLogin.Text = "Login";
+            this.ButtonLogin.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonLogin.UseVisualStyleBackColor = true;
+            this.ButtonLogin.Click += new System.EventHandler(this.ButtonLogin_Click);
             // 
             // FrmLogin
             // 
@@ -107,7 +108,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(406, 264);
             this.Controls.Add(this.ButtonExit);
-            this.Controls.Add(this.ButtonEnter);
+            this.Controls.Add(this.ButtonLogin);
             this.Controls.Add(this.TxtPassword);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.TxtUserNo);
@@ -126,7 +127,7 @@
         private System.Windows.Forms.TextBox TxtUserNo;
         private System.Windows.Forms.TextBox TxtPassword;
         private System.Windows.Forms.Label Password;
-        private System.Windows.Forms.Button ButtonEnter;
+        private System.Windows.Forms.Button ButtonLogin;
         private System.Windows.Forms.Button ButtonExit;
     }
 }

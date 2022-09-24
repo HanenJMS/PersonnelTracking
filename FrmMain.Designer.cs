@@ -129,6 +129,7 @@
             this.ButtonTasks.Text = "Tasks";
             this.ButtonTasks.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonTasks.UseVisualStyleBackColor = false;
+            this.ButtonTasks.Click += new System.EventHandler(this.ButtonTasks_Click);
             // 
             // ButtonEmployee
             // 
@@ -142,6 +143,7 @@
             this.ButtonEmployee.Text = "Employee";
             this.ButtonEmployee.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonEmployee.UseVisualStyleBackColor = false;
+            this.ButtonEmployee.Click += new System.EventHandler(this.ButtonEmployee_Click);
             // 
             // FrmMain
             // 
