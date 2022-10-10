@@ -155,6 +155,7 @@
             this.ButtonSave.TabIndex = 33;
             this.ButtonSave.Text = "Save";
             this.ButtonSave.UseVisualStyleBackColor = true;
+            this.ButtonSave.Click += new System.EventHandler(this.ButtonSave_Click);
             // 
             // FrmPermission
             // 

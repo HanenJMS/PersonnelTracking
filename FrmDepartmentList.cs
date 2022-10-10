@@ -16,5 +16,10 @@ namespace PersonalTracking
         {
             InitializeComponent();
         }
+
+        private void ButtonAdd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

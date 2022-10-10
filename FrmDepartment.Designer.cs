@@ -76,6 +76,7 @@
             this.ButtonSave.Text = "Save";
             this.ButtonSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonSave.UseVisualStyleBackColor = true;
+            this.ButtonSave.Click += new System.EventHandler(this.ButtonSave_Click);
             // 
             // FrmDepartment
             // 

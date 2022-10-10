@@ -113,6 +113,7 @@
             this.ButtonAdd.Text = "Add";
             this.ButtonAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonAdd.UseVisualStyleBackColor = true;
+            this.ButtonAdd.Click += new System.EventHandler(this.ButtonAdd_Click);
             // 
             // FrmDepartmentList
             // 

@@ -21,5 +21,10 @@ namespace PersonalTracking
         {
             this.Close();
         }
+
+        private void ButtonSave_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

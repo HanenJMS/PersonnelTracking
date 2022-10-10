@@ -93,6 +93,7 @@
             this.ButtonSave.TabIndex = 2;
             this.ButtonSave.Text = "Save";
             this.ButtonSave.UseVisualStyleBackColor = true;
+            this.ButtonSave.Click += new System.EventHandler(this.ButtonSave_Click);
             // 
             // FrmPosition
             // 
