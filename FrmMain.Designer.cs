@@ -77,6 +77,7 @@
             this.Position.Text = "Position";
             this.Position.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Position.UseVisualStyleBackColor = false;
+            this.Position.Click += new System.EventHandler(this.Position_Click);
             // 
             // ButtonDepartment
             // 

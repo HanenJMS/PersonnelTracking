@@ -26,5 +26,10 @@ namespace PersonalTracking
         {
             this.Close();
         }
+
+        private void ButtonAdd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

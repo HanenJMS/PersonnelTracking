@@ -37,5 +37,10 @@ namespace PersonalTracking
             frm.ShowDialog();
             this.Visible = true;
         }
+
+        private void Position_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
