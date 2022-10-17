@@ -227,6 +227,7 @@
             this.ButtonClose.Text = "Close";
             this.ButtonClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonClose.UseVisualStyleBackColor = true;
+            this.ButtonClose.Click += new System.EventHandler(this.ButtonClose_Click);
             // 
             // ButtonUpdate
             // 

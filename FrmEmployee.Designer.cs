@@ -32,7 +32,6 @@
             this.ChAdmin = new System.Windows.Forms.CheckBox();
             this.TextBoxPassword = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.Label();
-            this.ButtonCheck = new System.Windows.Forms.Button();
             this.TxtUserNo = new System.Windows.Forms.TextBox();
             this.UserNo = new System.Windows.Forms.Label();
             this.TextBoxSurName = new System.Windows.Forms.TextBox();
@@ -42,7 +41,6 @@
             this.TextBoxImagePath = new System.Windows.Forms.TextBox();
             this.ImagePath = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ButtonBrowsw = new System.Windows.Forms.Button();
             this.TextboxSalary = new System.Windows.Forms.TextBox();
             this.Salary = new System.Windows.Forms.Label();
@@ -56,6 +54,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ButtonClose = new System.Windows.Forms.Button();
             this.ButtonSave = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ButtonCheck = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -101,19 +101,6 @@
             this.Password.Size = new System.Drawing.Size(106, 25);
             this.Password.TabIndex = 8;
             this.Password.Text = "Password";
-            // 
-            // ButtonCheck
-            // 
-            this.ButtonCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonCheck.Image = global::PersonalTracking.Properties.Resources.loupe;
-            this.ButtonCheck.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonCheck.Location = new System.Drawing.Point(242, 0);
-            this.ButtonCheck.Name = "ButtonCheck";
-            this.ButtonCheck.Size = new System.Drawing.Size(125, 62);
-            this.ButtonCheck.TabIndex = 1;
-            this.ButtonCheck.Text = "Check";
-            this.ButtonCheck.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ButtonCheck.UseVisualStyleBackColor = true;
             // 
             // TxtUserNo
             // 
@@ -192,14 +179,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(507, 115);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(232, 306);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
             // ButtonBrowsw
             // 
             this.ButtonBrowsw.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -209,6 +188,7 @@
             this.ButtonBrowsw.TabIndex = 3;
             this.ButtonBrowsw.Text = "Browse";
             this.ButtonBrowsw.UseVisualStyleBackColor = true;
+            this.ButtonBrowsw.Click += new System.EventHandler(this.ButtonBrowsw_Click);
             // 
             // TextboxSalary
             // 
@@ -255,6 +235,7 @@
             this.CmbDepartment.Name = "CmbDepartment";
             this.CmbDepartment.Size = new System.Drawing.Size(209, 33);
             this.CmbDepartment.TabIndex = 5;
+            this.CmbDepartment.SelectedIndexChanged += new System.EventHandler(this.CmbDepartment_SelectedIndexChanged);
             // 
             // TextDepartment
             // 
@@ -329,6 +310,27 @@
             this.ButtonSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonSave.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(507, 115);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(232, 306);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
+            // ButtonCheck
+            // 
+            this.ButtonCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonCheck.Image = global::PersonalTracking.Properties.Resources.loupe;
+            this.ButtonCheck.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonCheck.Location = new System.Drawing.Point(242, 0);
+            this.ButtonCheck.Name = "ButtonCheck";
+            this.ButtonCheck.Size = new System.Drawing.Size(125, 62);
+            this.ButtonCheck.TabIndex = 1;
+            this.ButtonCheck.Text = "Check";
+            this.ButtonCheck.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonCheck.UseVisualStyleBackColor = true;
+            // 
             // FrmEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -357,6 +359,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FrmEmployee";
             this.Text = "Employee";
+            this.Load += new System.EventHandler(this.FrmEmployee_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

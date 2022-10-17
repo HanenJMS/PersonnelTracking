@@ -40,7 +40,34 @@ namespace PersonalTracking
 
         private void Position_Click(object sender, EventArgs e)
         {
+            FrmPositionList frm = new FrmPositionList();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
 
+        private void ButtonPermission_Click(object sender, EventArgs e)
+        {
+            FrmPermission frm = new FrmPermission();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void ButtonSalary_Click(object sender, EventArgs e)
+        {
+            FrmSalaryList frm = new FrmSalaryList();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void ButtonDepartment_Click(object sender, EventArgs e)
+        {
+            FrmDepartmentList frm = new FrmDepartmentList();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
         }
     }
 }

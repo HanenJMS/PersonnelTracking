@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BLL;
+using DAL;
+using DAL.DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +28,23 @@ namespace PersonalTracking
         private void ButtonAdd_Click(object sender, EventArgs e)
         {
             FrmPosition frm = new FrmPosition();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+            ShowGrid();
 
+        }
+
+        private void FrmPositionList_Load(object sender, EventArgs e)
+        {
+            ShowGrid();
+        }
+
+        private void ShowGrid()
+        {
+            List<PositionDTO> pList = new List<PositionDTO>();
+            pList = PositionBLL.GetPositions();
+            DataPositionList.DataSource = pList;
         }
     }
 }

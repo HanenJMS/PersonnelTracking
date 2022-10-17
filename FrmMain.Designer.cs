@@ -91,6 +91,7 @@
             this.ButtonDepartment.Text = "Department";
             this.ButtonDepartment.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonDepartment.UseVisualStyleBackColor = false;
+            this.ButtonDepartment.Click += new System.EventHandler(this.ButtonDepartment_Click);
             // 
             // ButtonPermission
             // 
@@ -104,6 +105,7 @@
             this.ButtonPermission.Text = "Permission";
             this.ButtonPermission.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonPermission.UseVisualStyleBackColor = false;
+            this.ButtonPermission.Click += new System.EventHandler(this.ButtonPermission_Click);
             // 
             // ButtonSalary
             // 
@@ -117,6 +119,7 @@
             this.ButtonSalary.Text = "Salary";
             this.ButtonSalary.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonSalary.UseVisualStyleBackColor = false;
+            this.ButtonSalary.Click += new System.EventHandler(this.ButtonSalary_Click);
             // 
             // ButtonTasks
             // 

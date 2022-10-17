@@ -125,6 +125,7 @@
             this.Name = "FrmPositionList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPositionList";
+            this.Load += new System.EventHandler(this.FrmPositionList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DataPositionList)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

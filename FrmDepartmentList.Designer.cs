@@ -74,6 +74,7 @@
             this.ButtonClose.Text = "Close";
             this.ButtonClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonClose.UseVisualStyleBackColor = true;
+            this.ButtonClose.Click += new System.EventHandler(this.ButtonClose_Click);
             // 
             // ButtonUpdate
             // 
@@ -124,7 +125,9 @@
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmDepartmentList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Department List";
+            this.Load += new System.EventHandler(this.FrmDepartmentList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

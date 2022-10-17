@@ -42,5 +42,10 @@ namespace PersonalTracking
             frm.ShowDialog();
             this.Visible = true;
         }
+
+        private void ButtonClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
