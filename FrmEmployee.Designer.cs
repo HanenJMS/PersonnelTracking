@@ -32,6 +32,7 @@
             this.ChAdmin = new System.Windows.Forms.CheckBox();
             this.TextBoxPassword = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.Label();
+            this.ButtonCheck = new System.Windows.Forms.Button();
             this.TxtUserNo = new System.Windows.Forms.TextBox();
             this.UserNo = new System.Windows.Forms.Label();
             this.TextBoxSurName = new System.Windows.Forms.TextBox();
@@ -55,7 +56,6 @@
             this.ButtonClose = new System.Windows.Forms.Button();
             this.ButtonSave = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ButtonCheck = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -102,6 +102,20 @@
             this.Password.TabIndex = 8;
             this.Password.Text = "Password";
             // 
+            // ButtonCheck
+            // 
+            this.ButtonCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonCheck.Image = global::PersonalTracking.Properties.Resources.loupe;
+            this.ButtonCheck.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ButtonCheck.Location = new System.Drawing.Point(242, 0);
+            this.ButtonCheck.Name = "ButtonCheck";
+            this.ButtonCheck.Size = new System.Drawing.Size(125, 62);
+            this.ButtonCheck.TabIndex = 1;
+            this.ButtonCheck.Text = "Check";
+            this.ButtonCheck.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ButtonCheck.UseVisualStyleBackColor = true;
+            this.ButtonCheck.Click += new System.EventHandler(this.ButtonCheck_Click);
+            // 
             // TxtUserNo
             // 
             this.TxtUserNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -109,6 +123,7 @@
             this.TxtUserNo.Name = "TxtUserNo";
             this.TxtUserNo.Size = new System.Drawing.Size(209, 30);
             this.TxtUserNo.TabIndex = 0;
+            this.TxtUserNo.TextChanged += new System.EventHandler(this.TxtUserNo_TextChanged);
             this.TxtUserNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtUserNo_KeyPress);
             // 
             // UserNo
@@ -309,6 +324,7 @@
             this.ButtonSave.Text = "Save";
             this.ButtonSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonSave.UseVisualStyleBackColor = true;
+            this.ButtonSave.Click += new System.EventHandler(this.ButtonSave_Click);
             // 
             // pictureBox1
             // 
@@ -317,19 +333,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(232, 306);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
-            // 
-            // ButtonCheck
-            // 
-            this.ButtonCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonCheck.Image = global::PersonalTracking.Properties.Resources.loupe;
-            this.ButtonCheck.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ButtonCheck.Location = new System.Drawing.Point(242, 0);
-            this.ButtonCheck.Name = "ButtonCheck";
-            this.ButtonCheck.Size = new System.Drawing.Size(125, 62);
-            this.ButtonCheck.TabIndex = 1;
-            this.ButtonCheck.Text = "Check";
-            this.ButtonCheck.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ButtonCheck.UseVisualStyleBackColor = true;
             // 
             // FrmEmployee
             // 

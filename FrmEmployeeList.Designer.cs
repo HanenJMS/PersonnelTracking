@@ -97,6 +97,7 @@
             this.ButtonSearch.Text = "Search";
             this.ButtonSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonSearch.UseVisualStyleBackColor = true;
+            this.ButtonSearch.Click += new System.EventHandler(this.ButtonSearch_Click);
             // 
             // CmbPosition
             // 
@@ -125,6 +126,7 @@
             this.CmbDepartment.Name = "CmbDepartment";
             this.CmbDepartment.Size = new System.Drawing.Size(184, 33);
             this.CmbDepartment.TabIndex = 3;
+            this.CmbDepartment.SelectedIndexChanged += new System.EventHandler(this.CmbDepartment_SelectedIndexChanged);
             // 
             // TextDepartment
             // 
@@ -281,6 +283,7 @@
             this.Name = "FrmEmployeeList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee List";
+            this.Load += new System.EventHandler(this.FrmEmployeeList_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
