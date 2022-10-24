@@ -80,7 +80,42 @@ namespace PersonalTracking
 
         private void ButtonSearch_Click(object sender, EventArgs e)
         {
+            List<EmployeeDetailDTO> list = dto.Employees;
+            if(TxtBoxUserNo.Text.Trim() != "")
+            {
+                list = list.Where(x => x.UserNo == Convert.ToInt32(TxtBoxUserNo.Text)).ToList();
+            }
+            if (TextBoxName.Text.Trim() != "")
+            {
+                list = list.Where(x => x.Name.Contains(TextBoxName.Text)).ToList();
+            }
+            if (TextBoxSurName.Text.Trim() != "")
+            {
+                list = list.Where(x => x.Name.Contains(TextBoxSurName.Text)).ToList();
+            }
+            if(CmbDepartment.SelectedIndex != -1)
+            {
+                list = list.Where(x => x.DepartmentID == Convert.ToInt32(CmbDepartment.SelectedValue)).ToList();
+            }
+            if (CmbPosition.SelectedIndex != -1)
+            {
+                list = list.Where(x => x.DepartmentID == Convert.ToInt32(CmbPosition.SelectedValue)).ToList();
+            }
+            dataGridView1.DataSource = list;
+        }
 
+        private void ButtonClear_Click(object sender, EventArgs e)
+        {
+            TxtBoxUserNo.Clear();
+            TextBoxName.Clear();
+            TextBoxSurName.Clear();
+            comboFull = false;
+            CmbDepartment.SelectedIndex = -1;
+            CmbDepartment.DataSource = dto.Departments;
+            CmbPosition.SelectedIndex = -1;
+            CmbPosition.DataSource = dto.Positions;
+            comboFull = true;
+            dataGridView1.DataSource = dto.Employees;
         }
     }
 }

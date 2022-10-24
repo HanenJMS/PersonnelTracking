@@ -84,6 +84,7 @@
             this.ButtonClear.Text = "Clear";
             this.ButtonClear.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ButtonClear.UseVisualStyleBackColor = true;
+            this.ButtonClear.Click += new System.EventHandler(this.ButtonClear_Click);
             // 
             // ButtonSearch
             // 
